@@ -2,7 +2,14 @@
 name = "hlm"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["shad0wcrawl3r"]
+license = "MIT"
+description = "The core library for my healthcheck application"
+# documentation = ""
+# homepage = ""
+repository = "https://github.com/shad0wcrawl3r/hlm"
+# manifest has no description, documentation, homepage or repository.
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+procfs = { version = "0.16.0", features = ["serde"] }

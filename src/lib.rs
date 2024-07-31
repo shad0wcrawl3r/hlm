@@ -1,3 +1,7 @@
+pub mod cpu;
+pub mod files;
+pub(crate) mod structs;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
